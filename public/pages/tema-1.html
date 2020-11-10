@@ -1,0 +1,180 @@
+<div class="container">
+    <div class="header-ecored">
+        <h1>1. Teoría de los requisitos</h1>
+    </div>
+    <div class="card">
+        <div class="card-body p-5">
+            <h2>1.1 Terminología</h2>
+            <p class="mt-4">Los requisitos para desarrollar un software, son descripciones del comportamiento, propiedades y restricciones; reflejan las necesidades de los clientes para un software que cumpla con un propósito. </p>
+            <p class="mt-4">A continuación se explican conceptos básicos para una buena especificación de requisitos:</p>
+            <h3 class="mt-5">Ingeniería de requerimientos: </h3>
+            <div class="quote my-5">
+                <div class="quote__bar">
+                    <div class="quote__bar__icon"><img src="assets/images/icons/quote_01.svg" /></div>
+                    <div class="quote__bar__hr"></div>
+                </div>
+                <div class="quote__text">
+                    <p class="mb-0"><strong>Definición.</strong> “La ingeniería de requerimientos es un proceso sistemático mediante el cual se determinan los servicios que el software como producto debe suministrar y las restricciones sobre las cuales operará” <span class="text-color-secondary"> (BOURQUE, 2014)</span>.</p>
+                </div>
+                <div class="quote__bar">
+                    <div class="quote__bar__hr"></div>
+                    <div class="quote__bar__icon"><img src="assets/images/icons/quote_02.svg" /></div>
+                </div>
+            </div>
+            <p class="mt-5">Aquí se introduce el término <strong>“servicio”</strong> que en algunos casos es una forma más descriptiva de llamar a los requerimientos</p>
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-md-10">
+                    <p class="text-center"><img class="img-fluid" src="assets/images/pages/tema-1/tema-11.svg" /></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body p-5">
+            <!--.subtitulo-guion-->
+            <h2>1.2 Clases de requerimientos</h2>
+            <p class="mt-5">Los requerimientos o servicios que el software debe suministrar se pueden clasificar en <strong>funcionales</strong> y <strong>no funcionales</strong>.</p>
+            <h3 class="mt-5">Funcionales</h3>
+            <p class="mt-4">Son los requerimientos que surgen de las necesidades puntuales del cliente, por ejemplo: emitir reporte de ventas diario, permitir el registro de los asientos contables, etc.</p>
+            <!--.subtitulo-guion-->
+            <h3 class="mt-5"> No funcionales</h3>
+            <p class="mt-4">Son los requerimientos que surgen de las restricciones o condiciones en las cuales debe operar el software como seguridad, desempeño, tipo de proceso de desarrollo, tipos de huellas de auditoría, etc.</p>
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-md-11">
+                    <p class="text-center"><img class="img-fluid" src="assets/images/pages/tema-1/tema-12-2.svg" /></p>
+                </div>
+            </div>
+            <p class="mt-6">Sommerville propone la siguiente clasificación (SOMMERVILLE, 2005):</p>
+            <div class="row my-4">
+                <div class="col-12">
+                    <div class="list">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <h4>Requerimientos de producto</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4">Son los requerimientos que determinan cómo se debe comportar el producto en cuanto a desempeño, confiabilidad, portabilidad y facilidad de uso (usabilidad).</p>
+            <p class="mt-5">Ejemplos:</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-10 col-md-8">
+                    <div class="card-media">
+                        <div class="card-media__body">
+                            <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/tema-1/icon-1.svg" /></figure>
+                            <p class="card__copy"> <span> <strong>a. De desempeño</strong>. El sistema deberá generar la factura en un tiempo máximo de un minuto..</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-8">
+                    <div class="card-media">
+                        <div class="card-media__body">
+                            <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/tema-1/icon-2.svg" /></figure>
+                            <p class="card__copy"> <span> <strong>b. De confiabilidad</strong>. El sistema no deberá presentar más de un error por cada 10.000 líneas de código.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-8">
+                    <div class="card-media">
+                        <div class="card-media__body">
+                            <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/tema-1/icon-3.svg" /></figure>
+                            <p class="card__copy"> <span> <strong>c. De portabilidad</strong>. El sistema deberá operar en ambientes Windows 10, Linux Ubuntu 14.04 y Mac OS</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-8">
+                    <div class="card-media">
+                        <div class="card-media__body">
+                            <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/tema-1/icon-4.svg" /></figure>
+                            <p class="card__copy"> <span> <strong>d. De facilidad de uso</strong>. El sistema deberá tener manuales de usuario que se puedan acceder en línea.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row my-4">
+                <div class="col-12">
+                    <div class="list">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <h4> Requerimientos organizacionales</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4">Son aquellos que condicionan la forma en que tanto la empresa como los desarrolladores llevan a cabo el proyecto. Entre estos están: la metodología de desarrollo a seguir, la plataforma de desarrollo a utilizar, entre otros.</p>
+            <hr />
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="list">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <h4> Requerimientos externos</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="mt-4">Son aquellos que condicionan la forma en que tanto la empresa como los desarrolladores llevan a cabo el proyecto. Entre estos están: la metodología de desarrollo a seguir, la plataforma de desarrollo a utilizar, entre otros.</p>
+                    <p class="mt-4">Por otra parte, si el sistema a desarrollar debe interactuar con sistemas externos se debe llevar a cabo un desarrollo para la integración entre los mismos. Un ejemplo se da cuando el sistema debe acceder a bases de datos externas a través de tecnologías como web services.</p>
+                </div>
+                <div class="col-auto"><img class="img-fluid" src="assets/images/pages/tema-1/tema-12-3.svg" style="max-width:200px" /></div>
+            </div>
+            <hr />
+            <h2 class="my-5">Características de los requerimientos</h2>
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-md-11">
+                    <p class="text-center"><img class="img-fluid" src="assets/images/pages/tema-1/tema-12-4.svg" /></p>
+                </div>
+            </div>
+            <p class="mt-4"><strong class="text-color-1">a. Que sean únicos:</strong> que no se repitan y de esta forma poder identificarlos para facilitar su manejo. Muchos requerimientos, aunque descritos de manera diferente pueden apuntar a uno mismo.</p>
+            <p class="mt-4"><strong class="text-color-1">b. Que sean concretos:</strong> deben definir una manera clara, precisa y concisa el qué o razón de ser del requerimiento </p>
+            <p class="mt-4"><strong class="text-color-1">c. Que sean realizables:</strong> el analista deberá tener en cuenta las restricciones de tiempo y costo del proyecto para no permitir requerimientos que estén fuera de esas limitaciones.</p>
+            <p class="mt-4"><strong class="text-color-1">d. Que tengan prioridad:</strong> los requerimientos se deben priorizar ya que es probable que todos no se puedan realizar en un primer proyecto de desarrollo. De esta forma se busca desarrollar los de más impacto sobre el negocio y dejar en segundo lugar los que menos impactan.</p>
+            <p class="mt-4"><strong class="text-color-1">e. Que sean pertinentes:</strong> los requerimientos deben ayudar a la empresa a cumplir sus objetivos de negocio dentro de su marco regulatorio y no a resolver problemáticas externas a la empresa. </p>
+            <p class="mt-4"><strong class="text-color-1">f. Que sean consistentes o coherentes:</strong> esto quiere decir que los requerimientos no se pueden contradecir o entrar en conflicto unos a otros. </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body p-5">
+            <h2>1.3 Etapas para la especificación de requisitos</h2>
+            <p class="mt-4">Durante el desarrollo de un proyecto de software, se debe definir muy bien lo que el cliente necesita, a través de las siguientes fases: </p>
+            <ul class="bg-color-light mt-4">
+                <li><span>Levantamiento de las especificaciones tanto funcionales como no funcionales a través de entrevistas, observación del proceso, reuniones, entre otras.</span></li>
+                <li><span>Luego se realiza un análisis de los requerimientos para organizarlos, detectar inconsistencias, conflictos y clasificarlos según prioridad e impacto.</span></li>
+                <li><span>Después se hace una definición de requerimientos a través de plantillas suministradas por la norma IEEE.</span></li>
+                <li><span>Y por último una validación de estos requerimientos para detectar problemas y dar una solución desde el principio.</span></li>
+            </ul>
+            <p class="mt-5">Examine cada una de las etapas y sus respectivas actividades para la especificación de requerimientos:</p>
+        </div><a class="position-relative" href="media/documentos/1.3_Etapas_para_la_especificacion_de_requisitos.pdf" target="_blank"><img class="card-img-top img-fluid" src="assets/images/pages/tema-1/tema-13.png" />
+            <div class="position-absolute" style="bottom: 16px; right: 16px">
+                <section class="my-5"><a class="media-link" href="media/documentos/1.3_Etapas_para_la_especificacion_de_requisitos.pdf" target="_blank"> <img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="" />
+                        <div class="media-link-title">
+                            <p><strong>Anexo</strong>. Etapas para la especificación de requisitos </p>
+                        </div>
+                    </a></section>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <div class="card-body p-5">
+            <h2>1.4 Aclaraciones y ejemplos</h2>
+            <p class="mt-5">A continuación se presentan algunos comentarios y formatos para la especificación de requerimientos de software:</p>
+        </div><a class="position-relative" href="media/documentos/1.4_Aclaraciones_y_ejemplos.pdf" target="_blank"><img class="card-img-top img-fluid" src="assets/images/pages/tema-1/tema-14.png" />
+            <div class="position-absolute" style="bottom: 16px; right: 16px">
+                <section class="my-5"><a class="media-link" href="media/documentos/1.4_Aclaraciones_y_ejemplos.pdf" target="_blank"> <img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="" />
+                        <div class="media-link-title">
+                            <p><strong>Anexo</strong>. Aclaraciones y ejemplos</p>
+                        </div>
+                    </a></section>
+            </div>
+        </a>
+    </div>
+</div>
